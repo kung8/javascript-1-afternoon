@@ -78,7 +78,8 @@ function doubleCheck (groceries){
 function looper (array){
   var mySum = 0;
   for(i=0;i<array.length;i++){
-    if(2%array[i]=true || array[i]>=100){return total = array[i]+mySum;};
+    if(2%array[i]=true){return total = array[i]+mySum;}
+  else if (array[i]>=100){return total = array[i]+mySum;}
   };
 };
 
