@@ -15,7 +15,7 @@ function greeting(name) {
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+var newGreeting;
 
 //////////////////PROBLEM 3////////////////////
 
