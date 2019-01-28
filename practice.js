@@ -88,12 +88,12 @@ function math(num1, num2, callback) {
 //Write a function called add that takes in two parameters and
 //returns the result of adding them together.
 
-//Code Here
+function add (number1,number2){return number1 + number2};
 
 //Now invoke math, passing in the numbers 3 and 4, and your add function,
 //storing the result in the variable mathSum.
 
-//Code Here
+var mathSum = console.log(add(3,4))
 
 //////////////////PROBLEM 8////////////////////
 
@@ -148,7 +148,7 @@ let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
 //Create a function called outerFn which returns an anonymous
 //function which returns your name.
 
-function outerFn (){return "Kevin"};
+
 //Now save the result of invoking outerFn into a variable called innerFn.
 
 console.log(outerFn(innerFn))
