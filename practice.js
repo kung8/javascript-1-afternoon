@@ -48,21 +48,27 @@ function doubleCheck (groceries){
 //name (a string), color: (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
-
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+var dog = {
+  name:"",
+  color:"",
+  age:,
+  goodBoy:
+};
+
+var devMountainClassPet = dog.name;
 
 //Add a method to dog called bark.
 //The value of bark should be a function that returns the string "Woof woof".
 
-//Code Here
+
+dog.bark = function(){return "Woof woof";};
 
 //Store the result of invoking the bark method in a variable called ruff.
 
-//Code Here
+console.log(dog.bark = "ruff")
 
 //////////////////PROBLEM 6////////////////////
 
