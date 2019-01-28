@@ -75,7 +75,12 @@ function doubleCheck (groceries){
 
 //Return mySum.
 
-//Code Here
+function looper (array){
+  var mySum = 0;
+  for(i=0;i<array.length;i++){
+    if(2%array[i]=true || array[i]>=100){return total = array[i]+mySum;};
+  };
+};
 
 //////////////////PROBLEM 7////////////////////
 
