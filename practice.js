@@ -15,14 +15,14 @@ function greeting(name) {
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-var newGreeting;
+function newGreeting(greeting)
 
 //////////////////PROBLEM 3////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-//Code Here
+
 
 //////////////////PROBLEM 4////////////////////
 
