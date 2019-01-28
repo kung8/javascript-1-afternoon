@@ -22,8 +22,7 @@ var newGreeting = greeting;
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-var finalGreeting => newGreeting;
-
+function finalGreeting (){return newGreeting;};
 //////////////////PROBLEM 4////////////////////
 
 //Create an array called groceries with the values
