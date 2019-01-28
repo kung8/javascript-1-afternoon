@@ -22,14 +22,14 @@ var newGreeting = greeting;
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-
+var finalGreeting => newGreeting;
 
 //////////////////PROBLEM 4////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+var groceries = [apples, milk, eggs, bread];
 
 //Write a function called doubleCheck that takes in an array
 //as a parameter.
@@ -37,7 +37,10 @@ var newGreeting = greeting;
 //If the array does not contain "chocolate", add "chocolate".
 //doubleCheck should return the array.
 
-//Code Here
+function doubleCheck (groceries){
+  if
+  (groceries.filter(function){"chocolate",i,groceries}){return groceries.push = "chocolate";};
+};
 
 //////////////////PROBLEM 5////////////////////
 
